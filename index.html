@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotelfy - Soluções Inteligentes Para Sua Hospedagem</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://static.wixstatic.com/media/e76ab3_d9b7fa96c7af445fb1edeb32727b82a5~mv2.png" alt="Logo Hotelfy" />
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Soluções</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">ChatBot para WhatsApp</a></li>
+            <li><a href="#">Desenvolvimento de Site</a></li>
+            <li><a href="#">Identidade Visual para Instagram</a></li>
+            <li><a href="#">Tráfego pago</a></li>
+            <li><a href="#">Consultoria</a></li>
+            <li><a href="#">Sistema de Gestão Hoteleira</a></li>
+            <li><a href="#">Encontre Talentos Para Seu Hotel</a></li>
+          </ul>
+        </li>
+        <li><a href="#">A Empresa</a></li>
+        <li><a href="#">Amigo Indica</a></li>
+        <li><a href="#">Hotelfy Academy</a></li>
+      </ul>
+    </nav>
+
+    <a href="https://painel.hotelfy.app/login" class="painel-btn">Acesse seu painel</a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+  <ul class="menu-mobile" id="mobileMenu">
+    <li><a href="#" onclick="closeMenu(this)">Home</a></li>
+    <li class="dropdown">
+      <a href="#" onclick="toggleSubmenu(event)">Soluções</a>
+      <ul class="dropdown-menu" id="mobileDropdown">
+        <li><a href="#" onclick="closeMenu(this)">ChatBot para WhatsApp</a></li>
+        <li><a href="#" onclick="closeMenu(this)">Desenvolvimento de Site</a></li>
+        <li><a href="#" onclick="closeMenu(this)">Identidade Visual para Instagram</a></li>
+        <li><a href="#" onclick="closeMenu(this)">Tráfego pago</a></li>
+        <li><a href="#" onclick="closeMenu(this)">Consultoria</a></li>
+        <li><a href="#" onclick="closeMenu(this)">Sistema de Gestão Hoteleira</a></li>
+        <li><a href="#" onclick="closeMenu(this)">Encontre Talentos Para Seu Hotel</a></li>
+      </ul>
+    </li>
+    <li><a href="#" onclick="closeMenu(this)">A Empresa</a></li>
+    <li><a href="#" onclick="closeMenu(this)">Amigo Indica</a></li>
+    <li><a href="#" onclick="closeMenu(this)">Hotelfy Academy</a></li>
+  </ul>
+
+  <script src="assets/js/main.js"></script>
+
+  <!-- Seção de Destaque / Banner da Home -->
+<section class="home-hero">
+    <div class="container">
+      <div class="text-content">
+        <h1>Soluções Inteligentes para sua Hospedagem</h1>
+        <p>
+          Desde Chat bot para atendimento automatizado, Tráfego Pago, Desenvolvimento de Site até a abertura do seu próprio Hostel ou Pousada, oferecemos soluções completas para maximizar seu sucesso.
+        </p>
+        <a href="https://wa.me/5541988853079" target="_blank" class="btn">Fale com um especialista!</a>
+      </div>
+      <div class="image-content">
+        <img src="https://static.wixstatic.com/media/e76ab3_3aab482dc35f406088d879c972171ced~mv2.png" alt="Hotel Reception" />
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>

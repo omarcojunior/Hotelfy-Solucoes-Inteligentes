@@ -1,0 +1,300 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 30px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #228B22;
+    font-size: 16px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+}
+
+/* Submenu para Soluções */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1;
+    width: 200px;
+    padding: 10px 0;
+}
+
+.dropdown-menu li {
+    padding: 0;
+    text-align: left;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #228B22;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown > a::after {
+    content: ' ▼';
+    font-size: 12px;
+    color: #4CAF50;
+    padding-left: 5px;
+}
+
+.painel-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.painel-btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o menu hamburguer no mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #4CAF50;
+    margin: 4px;
+    transition: 0.4s;
+}
+
+.menu-mobile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.menu-mobile li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu-mobile li a {
+    padding: 10px 0;
+    color: #228B22;
+    font-size: 10px; /* Ajustado o tamanho da fonte para o estilo do print */
+    text-decoration: none;
+    display: block;
+}
+
+.menu-mobile li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Ocultar o menu padrão do Wix no mobile */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .logo img {
+        display: block;
+    }
+
+    .painel-btn {
+        display: none;
+    }
+
+    /* Ocultar o menu padrão do Wix */
+    #SITE_HEADER, #wixMenu {
+        display: none !important;
+    }
+
+    /* Submenu estilizado para mobile */
+    .dropdown-menu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /* Estilo do submenu quando ativo no mobile */
+    .submenu-active {
+        display: block;
+        background-color: white;
+        border-top: 2px solid #4CAF50;
+        border-bottom: 2px solid #4CAF50;
+    }
+}
+
+/* Exibir o menu e botão na versão desktop */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .painel-btn {
+        display: inline-block;
+    }
+}
+
+.menu-active {
+    display: flex;
+}
+/* Seção Hero - Home */
+.home-hero {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.image-content img {
+    max-width: 500px;
+    height: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content,
+    .image-content {
+        max-width: 100%;
+    }
+
+    .text-content h1 {
+        font-size: 36px;
+    }
+
+    .text-content p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .image-content img {
+        max-width: 100%;
+    }
+}
