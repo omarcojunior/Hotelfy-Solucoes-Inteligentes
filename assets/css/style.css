@@ -298,3 +298,412 @@ nav ul li a:hover {
         max-width: 100%;
     }
 }
+
+/* Seção - Chatbot: Automatize o Atendimento */
+.chatbot-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.chatbot-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.chatbot-section .image-content {
+    max-width: 45%;
+}
+
+.chatbot-section .image-content img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.1);
+}
+
+.chatbot-section .text-content {
+    max-width: 50%;
+    margin-left: 20px;
+}
+
+.chatbot-section .text-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.chatbot-section .text-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.chatbot-section .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.chatbot-section .btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .chatbot-section .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .chatbot-section .text-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .chatbot-section .image-content {
+        max-width: 100%;
+    }
+
+    .chatbot-section .text-content h2 {
+        font-size: 28px;
+    }
+
+    .chatbot-section .text-content p {
+        font-size: 14px;
+    }
+
+    .chatbot-section .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .chatbot-section .image-content img {
+        max-width: 100%;
+    }
+}
+
+/* Seção - Tráfego Pago */
+.trafego-pago-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.trafego-pago-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.trafego-pago-section .text-content {
+    max-width: 50%;
+}
+
+.trafego-pago-section .text-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.trafego-pago-section .text-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.trafego-pago-section .text-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.trafego-pago-section .text-content ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.trafego-pago-section .text-content ul li strong {
+    color: #006400;
+    font-weight: bold;
+}
+
+.trafego-pago-section .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.trafego-pago-section .btn:hover {
+    background-color: #45a049;
+}
+
+.trafego-pago-section .image-content {
+    max-width: 45%;
+}
+
+.trafego-pago-section .image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .trafego-pago-section .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .trafego-pago-section .text-content,
+    .trafego-pago-section .image-content {
+        max-width: 100%;
+    }
+
+    .trafego-pago-section .text-content h2 {
+        font-size: 32px;
+    }
+
+    .trafego-pago-section .text-content p,
+    .trafego-pago-section .text-content ul li {
+        font-size: 14px;
+    }
+
+    .trafego-pago-section .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .trafego-pago-section .image-content img {
+        max-width: 100%;
+    }
+}
+
+/* Seção - Site Profissional */
+.site-profissional-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.site-profissional-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.site-profissional-section .text-content {
+    max-width: 50%;
+}
+
+.site-profissional-section .text-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.site-profissional-section .text-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.site-profissional-section .text-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.site-profissional-section .text-content ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.site-profissional-section .text-content ul li strong {
+    color: #006400;
+    font-weight: bold;
+}
+
+.site-profissional-section .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.site-profissional-section .btn:hover {
+    background-color: #45a049;
+}
+
+.site-profissional-section .image-content {
+    max-width: 45%;
+}
+
+.site-profissional-section .image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .site-profissional-section .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-profissional-section .text-content,
+    .site-profissional-section .image-content {
+        max-width: 100%;
+    }
+
+    .site-profissional-section .text-content h2 {
+        font-size: 32px;
+    }
+
+    .site-profissional-section .text-content p,
+    .site-profissional-section .text-content ul li {
+        font-size: 14px;
+    }
+
+    .site-profissional-section .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .site-profissional-section .image-content img {
+        max-width: 100%;
+    }
+}
+
+/* Seção - Consultoria para Hostel/Pousada */
+.consultoria-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.consultoria-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.consultoria-section .text-content {
+    max-width: 50%;
+}
+
+.consultoria-section .text-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.consultoria-section .text-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.consultoria-section .text-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.consultoria-section .text-content ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.consultoria-section .text-content ul li strong {
+    color: #006400;
+    font-weight: bold;
+}
+
+.consultoria-section .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.consultoria-section .btn:hover {
+    background-color: #45a049;
+}
+
+.consultoria-section .image-content {
+    max-width: 45%;
+}
+
+.consultoria-section .image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .consultoria-section .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .consultoria-section .text-content,
+    .consultoria-section .image-content {
+        max-width: 100%;
+    }
+
+    .consultoria-section .text-content h2 {
+        font-size: 32px;
+    }
+
+    .consultoria-section .text-content p,
+    .consultoria-section .text-content ul li {
+        font-size: 14px;
+    }
+
+    .consultoria-section .btn {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+
+    .consultoria-section .image-content img {
+        max-width: 100%;
+    }
+}
+
