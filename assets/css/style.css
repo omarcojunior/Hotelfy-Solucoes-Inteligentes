@@ -707,3 +707,242 @@ nav ul li a:hover {
     }
 }
 
+/* Seção - Serviços */
+.servicos-section {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.servicos-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.servicos-section h2 span {
+    display: block;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.service-item {
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #006400;
+    margin: 20px 0;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.service-item img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .service-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .servicos-section h2 {
+        font-size: 36px;
+    }
+}
+.titulo-servicos {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-servicos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.titulo-servicos h2 span {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .titulo-servicos h2 {
+        font-size: 36px;
+    }
+}
+
+.servicos-section {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+/* NOVO BLOCO PARA O TÍTULO */
+.titulo-servicos {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.titulo-servicos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: #006400;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.titulo-servicos h2 span {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .titulo-servicos h2 {
+        font-size: 36px;
+    }
+}
+
+/* SEÇÃO DE SERVIÇOS */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.service-item {
+    width: 30%;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #006400;
+    margin: 20px 0;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.service-item img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .service-item {
+        width: 100%;
+    }
+}
+
+/* Rodapé */
+.footer {
+    background-color: #e0f7c1;
+    padding: 40px 0;
+    color: #006400;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    text-align: left;
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #006400;
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #006400;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-socials {
+    margin-top: 15px;
+  }
+  
+  .footer-socials a {
+    margin-right: 15px;
+  }
+  
+  .footer-socials img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #006400;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      margin: 20px 0;
+      width: 100%;
+    }
+  
+    .footer-logo {
+      text-align: center;
+    }
+  }
+  
