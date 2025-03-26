@@ -946,3 +946,332 @@ nav ul li a:hover {
     }
   }
   
+  /* Bloco de informação Chatbot */
+  .chatbot-benefits {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .chatbot-benefits .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .chatbot-benefits .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .chatbot-benefits .text-column {
+    width: 100%;
+    color: #666;
+  }
+  
+  .chatbot-benefits .text-column h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.3;
+  }
+  
+  .chatbot-benefits .text-column p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .chatbot-benefits .text-column strong {
+    color: #006400;
+  }
+  
+  @media (max-width: 768px) {
+    .chatbot-benefits .content-wrapper {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .chatbot-benefits .text-column h1 {
+      font-size: 28px;
+    }
+  
+    .chatbot-benefits .text-column {
+      font-size: 14px;
+    }
+  }
+  
+  /* Bloco de bebefícios Chatbot */
+  .chatbot-benefits-grid {
+    background-color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .chatbot-benefits-grid .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chatbot-benefits-grid .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .chatbot-benefits-grid .benefit-item {
+    width: 23%;
+    text-align: center;
+  }
+  
+  .chatbot-benefits-grid .benefit-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-benefits-grid .benefit-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #006400;
+    margin-bottom: 15px;
+  }
+  
+  .chatbot-benefits-grid .benefit-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Bloco do título no grid */
+  .chatbot-benefits-grid .benefit-item.full {
+    width: 100%;
+  }
+  
+  .chatbot-benefits-grid .benefit-item.full .headline {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .chatbot-benefits-grid .benefit-item {
+      width: 100%;
+    }
+  
+    .chatbot-benefits-grid .benefit-item.full .headline {
+      font-size: 24px;
+    }
+  
+    .chatbot-benefits-grid .benefit-item h3 {
+      font-size: 18px;
+    }
+  
+    .chatbot-benefits-grid .benefit-item p {
+      font-size: 13px;
+    }
+  }
+  .chatbot-benefits-grid .benefit-item {
+    width: 23%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .chatbot-final-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .chatbot-final-section .headline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: #006400;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .chatbot-final-section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .chatbot-final-section .text-section {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .chatbot-final-section .text-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-final-section .text-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .chatbot-final-section .text-section p strong {
+    color: #006400;
+  }
+  
+  .chatbot-final-section .image-section {
+    width: 45%;
+    padding: 20px;
+  }
+  
+  .chatbot-final-section .image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .chatbot-final-section .cta-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .chatbot-final-section .cta-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .chatbot-final-section .content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .chatbot-final-section .text-section,
+    .chatbot-final-section .image-section {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .chatbot-final-section .headline {
+      font-size: 24px;
+    }
+  
+    .chatbot-final-section .text-section h2 {
+      font-size: 22px;
+    }
+  
+    .chatbot-final-section .text-section p {
+      font-size: 14px;
+    }
+  
+    .chatbot-final-section .cta-btn {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  
+    .chatbot-final-section .image-section img {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Plano perfeito Chatbot */
+  .plano-section {
+    padding: 60px 20px;
+  }
+  .plano-section .headline {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #006400;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    text-align: left;
+  }
+  .plano-section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .image-section {
+    flex: 1;
+    text-align: center;
+  }
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .text-section {
+    flex: 1;
+  }
+  .text-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #006400;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .text-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  .text-section strong {
+    color: #006400;
+  }
+  .cta-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  .cta-btn:hover {
+    background-color: #45a049;
+  }
+  @media (max-width: 768px) {
+    .plano-section .content {
+      flex-direction: column;
+    }
+    .plano-section .headline {
+      font-size: 24px;
+      text-align: center;
+    }
+    .text-section h2 {
+      font-size: 20px;
+    }
+    .text-section p {
+      font-size: 14px;
+    }
+    .cta-btn {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }
