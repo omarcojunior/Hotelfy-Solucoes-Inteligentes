@@ -19,7 +19,7 @@ CSS para estilização e responsividade
 
 JavaScript para interatividade e dinamismo
 
-🔗 [https://www.hostelfy.com.br]
+🔗 [https://www.hotelfy.com.br]
 
 🎯 Objetivo
 
